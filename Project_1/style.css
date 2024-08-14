@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container{
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #1e1c1c;
+    transition:all 0.4s ease;
+}
+input{
+    background-color: white;
+    height:25px;
+    width: 200px;
+    margin-top: 10px;
+}
+.center{
+    align-items: center;
+    text-decoration: none;
+}
